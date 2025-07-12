@@ -74,6 +74,20 @@
       left: 100%;
       margin-top: -1px;
     }
+    .full-page-container {
+      height: 100vh;
+      width: 100vw;
+      background-image: url('images/homepage_image.png');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      text-shadow: 1px 1px 4px black;
+      font-size: 2rem;
+    }
   </style>
 </head>
 <body>
@@ -81,7 +95,7 @@
   <!-- Sticky Navbar --> 
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top" style="color: gold;"> 
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">MySite</a>
+      <a class="navbar-brand" href="index.html">MySite</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -89,13 +103,13 @@
       <div class="collapse navbar-collapse" id="navbarNavDropdown">
         <ul class="navbar-nav me-auto">
           <li class="nav-item">
-            <a class="nav-link" href="#">Home</a>
+            <a class="nav-link" href="index.html">Home</a>
           </li>
 
           <!-- Item 1 with Submenu -->
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="item1Dropdown" role="button" data-bs-toggle="dropdown">
-              Item 1
+              About the Talent Hunt
             </a>
             <ul class="dropdown-menu">
               <li><a class="dropdown-item" href="#">Subitem 1</a></li>
@@ -106,13 +120,13 @@
 
           <!-- Item 2 -->
           <li class="nav-item">
-            <a class="nav-link" href="#">Item 2</a>
+            <a class="nav-link" href="#">Contestants</a>
           </li>
 
           <!-- Item 3 with Submenu -->
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="item3Dropdown" role="button" data-bs-toggle="dropdown">
-              Item 3
+              Supporters
             </a>
             <ul class="dropdown-menu">
               <li><a class="dropdown-item" href="#">Subitem A</a></li>
@@ -130,42 +144,9 @@
     <p>Ad Booklet Featuring Our Esteemed Supporters</p>
   </header>
 
-  <section class="welcome">
-    <h2>Welcome</h2>
-    <p>
-      Thank you for joining us for this year's Talent Hunt hosted by the Gamma Alpha Chapter of Omega Psi Phi Fraternity, Inc. We are proud to showcase the talents of our youth and deeply appreciate the support of our generous advertisers.
-    </p>
-  </section>
-
-  <section class="ads">
-    <div class="ad full">
-      <h3>Gridiron Warrior Helmet Hats</h3>
-      <img src="https://i.imgur.com/coedHhh_d.png?maxwidth=520&shape=thumb&fidelity=high" alt="Ad Image" />
-      <p>Built for Game Day. Engineered for Cold Play.</p>
-      <small>www.gridiron.com</small>
-    </div>
-
-    <div class="ad">
-      <h3>Golf Tournament</h3>
-      <img src="https://i.imgur.com/Q9DL1DP.jpeg" alt="Ad Image" />
-      <p>Join us for a day of fun and fundraising on the green!!</p>
-      <small>www.golftournament.com</small>
-    </div>
-
-    <div class="ad">
-      <h3>Talent Hunt</h3>
-      <img src="https://i.imgur.com/1Eiras5.png" alt="Ad Image" />
-      <p>Roanoke’s Got Talent — Come Witness the Next Generation of Greatness!!</p>
-      <small>www.talenthunt.com</small>
-    </div>
-
-    <div class="ad">
-      <h3>Supporter Name</h3>
-      <img src="https://placehold.co/300x150" alt="Ad Image" />
-      <p>Your message or tagline goes here.</p>
-      <small>Website or contact info</small>
-    </div>
-  </section>
+  <div class="full-page-container">
+    Your Content Goes Here
+  </div>  
 
   <footer>
     <p>© 2026 Gamma Alpha Chapter – Omega Psi Phi Fraternity, Inc.</p>
